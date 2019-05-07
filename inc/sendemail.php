@@ -1,10 +1,10 @@
 <?php
 
-    $to = "backpiper.com@gmail.com";
+    $to = "admin@quartersprout.com";
     $from = $_REQUEST['email'];
     $name = $_REQUEST['name'];
     $headers = "From: $from";
-    $subject = "You have a message from your BizPro";
+    $subject = "Message from www.quartersprout.com";
 
     $fields = array();
     $fields{"Fname"}    = "First Name";
