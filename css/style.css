@@ -489,6 +489,15 @@ animation-delay: .8s;
   padding: 118px 23px 65px 23px;
   overflow: hidden;
 }
+.video-content {
+  border:1px solid #808489;
+  text-align: center;
+  margin-bottom: 10px;
+  padding: 10px;
+}
+.video-content h4 {
+  color: white;
+}
 #service-section .single-service-content p {
   -webkit-transition-delay: 0.3s; /* Safari */
   transition-delay: 0.3s;
