@@ -388,31 +388,24 @@
 					<div class="send-message">
 						<h2>Send Message</h2>
 
-						<form action="inc/sendemail.php" class="form-validation" autocomplete="off" method="post">
+						<form action="https://formspree.io/admin@quartersprout.com" class="form-validation" autocomplete="off" method="post" name="input">
 							<div class="row">
 								<div class="col-lg-4 col-md-4 col-sm-6 col-xs-12">
 									<div class="single-input">
-										<input type="text" placeholder="First Name*" name="Fname">
-									</div> <!-- /.single-input -->
-								</div>
-								<div class="col-lg-4 col-md-4 col-sm-6 col-xs-12">
-									<div class="single-input">
-										<input type="text" placeholder="Last Name*" name="Lname">
+										<input type="text" placeholder="Name*" name="Name">
 									</div> <!-- /.single-input -->
 								</div>
 								<div class="col-lg-4 col-md-4 col-sm-12 col-xs-12">
 									<div class="single-input">
-										<input type="email" placeholder="Your Email*" name="email">
+										<input type="email" placeholder="Your Email*" name="_replyto">
 									</div> <!-- /.single-input -->
 								</div>
 							</div> <!-- /.row -->
 							<div class="single-input">
-								<input type="text" placeholder="Subject" name="sub">
+								<input type="text" placeholder="Subject" name="_subject">
 							</div> <!-- /.single-input -->
 							<textarea placeholder="Write Message" name="message"></textarea>
-
-
-							<button class="tran3s p-color-bg">Send Message</button>
+							<input type="submit" class="tran3s p-color-bg" value="Send"/>
 						</form>
 
 
