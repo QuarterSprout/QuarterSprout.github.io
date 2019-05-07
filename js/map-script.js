@@ -189,12 +189,3 @@ function goMap () {
 		  });
   };
 };
-
-
-// Dom Ready Function
-jQuery(document).on('ready', function () {
-	(function ($) {
-		// add your functions
-		goMap()
-	})(jQuery);
-});
