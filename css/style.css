@@ -40,6 +40,7 @@
 **/
 
 @import url('https://fonts.googleapis.com/css?family=Fredoka+One');
+@import url('https://fonts.googleapis.com/css?family=Work+Sans');
 /*----bootstrap css ----- */
 @import url('../vendor/bootstrap/bootstrap.css');
 /*----font awesome -------*/
@@ -168,7 +169,7 @@ animation-delay: .8s;
        url('../fonts/font-awesome/fonts/fontawesome-webfont.svg') format('svg'); /* Legacy iOS */
  }
  body {
-  font-family: 'Fredoka One', sans-serif;
+  font-family: 'Work Sans', sans-serif;
   font-weight: normal;
   color:#6f6f6f;
   font-size: 14px;
