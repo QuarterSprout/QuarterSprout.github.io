@@ -90,7 +90,7 @@
   bottom:0px;
   width: 6px;
   height: 5px;
-  background:#e04f5d; 
+  background:#3ddb91; 
   position:absolute;
   animation: preloader_1 1.5s  infinite ease-in-out;
 }
@@ -113,10 +113,10 @@ left:44px;
 animation-delay: .8s;
 }
 @keyframes preloader_1 {
-    0% {height:5px;transform:translateY(0px);background:#e62d3f;}
-    25% {height:30px;transform:translateY(15px);background:#e62d3f;}
-    50% {height:5px;transform:translateY(0px);background:#ee2438;}
-    100% {height:5px;transform:translateY(0px);background:#ee2438;}
+    0% {height:5px;transform:translateY(0px);background:#3ddb91;}
+    25% {height:30px;transform:translateY(15px);background:#3ddb91;}
+    50% {height:5px;transform:translateY(0px);background:#3ddb91;}
+    100% {height:5px;transform:translateY(0px);background:#3ddb91;}
 }
 
 
