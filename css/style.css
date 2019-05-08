@@ -95,6 +95,10 @@
   position:absolute;
   animation: preloader_1 1.5s  infinite ease-in-out;
 }
+
+h1, h2, h3, h4, h5  {
+  font-family: "Fredoka One"
+}
  
 #preloader_1 span:nth-child(2){
 left:11px;
