@@ -134,6 +134,8 @@
   overflow:hidden;
   padding-bottom:56.25%;
   position:relative;
+  left: 50%;
+  transform: translateX(-50%);
   height:0;
   margin-bottom: 20px;
 }
