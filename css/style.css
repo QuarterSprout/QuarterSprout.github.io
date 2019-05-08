@@ -1270,6 +1270,8 @@ footer {
 }
 footer .logo {
   margin-bottom: 20px;
+}
+#footer-logo {
   width: 300px;
 }
 footer ul li {
