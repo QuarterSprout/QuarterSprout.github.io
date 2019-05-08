@@ -135,8 +135,6 @@
   padding-bottom:56.25%;
   position:relative;
   height:0;
-  max-width: 560px;
-  max-height: 315px;
   margin-bottom: 20px;
 }
 .video-responsive iframe{
@@ -145,4 +143,6 @@
   height:100%;
   width:100%;
   position:absolute;
+  max-width: 560px;
+  max-height: 315px;
 }
