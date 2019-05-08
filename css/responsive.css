@@ -137,6 +137,7 @@
   height:0;
   max-width: 560px;
   max-height: 315px;
+  margin-bottom: 20px;
 }
 .video-responsive iframe{
   left:0;
