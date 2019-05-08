@@ -1270,6 +1270,7 @@ footer {
 }
 footer .logo {
   margin-bottom: 20px;
+  width: 300px;
 }
 footer ul li {
   display: inline-block;
