@@ -18,6 +18,10 @@
 	}
 }
 
+@media (min-width: 1367px) {
+  .theme-main-header .logo {width: 15%;}
+}
+
 @media (max-width: 1366px) {
   .scroll-top {bottom: 30px; right:30px;}
   .theme-main-header .logo {width: 15%;}
